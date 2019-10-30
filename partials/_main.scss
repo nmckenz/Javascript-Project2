@@ -1,0 +1,130 @@
+.flexContainerStats {
+    display: flex;
+    flex-flow: col wrap;
+    justify-content: space-evenly;
+    max-width: 100%;
+    border: 1px solid lightgray;
+}
+
+.flexContainerStats .category {
+    text-transform: uppercase;
+    color: lightgray;
+}
+
+.flexContainerStats .value {
+    color: white;
+}
+
+.statsTitle {
+    color: lightgray;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.wrapper {
+    margin: 0 15%;
+}
+
+h1 {
+    font-family: 'Faster One', cursive;
+    text-transform: uppercase;
+    transform: rotate(-15deg);
+    color: orangered;
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 5px;
+    text-shadow: 4px 5px #c6a39a, 9px 10px black;
+    text-align: center;
+    padding-top: 75px;
+
+}
+
+// h1::before {
+//     padding-left: 50px;
+// }
+
+h2 {
+    padding-top: 125px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+#playerSearchForm input[type=text] {
+    padding: 5px;
+    margin: 0 15px;
+    border-radius: 2px;
+    background-color: lightgray;
+}
+
+#playerSearchForm input[type=submit] {
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+#playerSearchForm {
+    margin: 20px auto;
+}
+
+#playerSearchResults {
+    margin: 20px auto;
+}
+
+#playerSearchSelect {
+    padding: 5px;
+    margin: 0 200px;
+    border-radius: 2px;
+    background-color: lightgray;
+}
+
+#statsSection {
+    margin: 75px auto 30px auto;
+}
+
+.playerName,
+.playerPosition {
+    color: orangered;
+}
+
+.playerName {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.playerPosition {
+    margin-top: 5px;
+}
+
+.statsSectionDescription {
+    text-align: center;
+}
+
+.getPokemonButtonDiv {
+    text-align: center;
+}
+
+.pokemonDiv {
+    text-align: center;
+}
+
+.pokemonDiv h3 {
+    font-size: 1.5rem;
+    color: orangered;
+}
+
+.pokemonDiv img {
+    width: 175px;
+    height: 175px;
+}
+
+option[value=players] {
+    text-transform: capitalize;
+}

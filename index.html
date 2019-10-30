@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Pokeballers</title>
+</head>
+<body class="wrapper">
+    
+    
+    <h1>Pokeballers</h1>
+
+    <h2>Select your favourite <span class="uppercase">nba</span> player to find out their <span class="capitalize">pokemon</span> avatar!</h2>
+
+    <!-- Search field for player: -->
+    <form action="" id="playerSearchForm">
+        <label for="playerSearch">Search for an <span class="uppercase">nba</span> player:</label>
+        <input type="text" id="playerSearchInput" size="25" placeholder="Type first or last name here">
+        <input type="submit" name="" id="" value="Let's NBA!">
+    </form>
+
+    <!-- Drop down for search return -->
+    <div id="playerSearchResults" class="hidden">
+        <!-- <label for="playerSearchSelectLabel">Choose a player:</label> -->
+        <select name="userPlayers" id="playerSearchSelect">
+            <option value="players">choose a player:</option>
+        </select>
+    </div>
+    
+
+    <!-- Stats for user selected player: -->
+    <div>
+        <div class="hidden" id="statsSection">
+            <div class="statsSectionDescription">
+                <h3 class="playerName"></h3>
+                <h4 class="playerPosition"></h4>
+                <h4 class="statsTitle">2018-2019 <span class="capitalize">season</span> <span class="capitalize">stats</span></h4>
+            </div>
+            <div class="flexContainerStats">
+                <div class="pts" id="1"></div>
+                <div class="ast" id="2"></div>
+                <div class="reb" id="3"></div>
+                <div class="stl" id="4"></div>
+                <div class="blk" id="5"></div>
+                <div class="pf" id="6"></div>
+                <div class="to" id="7"></div>
+                <div class="fta" id="8"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Get a pokemon avatar: -->
+    <div class="getPokemonButtonDiv">
+        <button id="getPokemonButton" class="hidden capitalize">catch that <span class="capitalize">pokemon</span>!</button>
+
+    </div>
+
+    <div class="pokemonDiv hidden">
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <footer>
+
+    </footer>
+</body>
+</html>
